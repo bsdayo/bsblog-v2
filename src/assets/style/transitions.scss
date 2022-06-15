@@ -1,0 +1,16 @@
+.slide-fade-enter-active {
+  transition: transform 500ms, opacity 800ms;
+}
+
+.slide-fade-leave-active {
+  transition: all 200ms;
+}
+
+.slide-fade-enter-from {
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.slide-fade-leave-to {
+  opacity: 0;
+}
